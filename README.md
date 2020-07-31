@@ -1,7 +1,7 @@
-## Cross Domain Structure Preserving Projection for Heterogeneous Domain Adaptation
+# Cross Domain Structure Preserving Projection for Heterogeneous Domain Adaptation
 Data used in this work are available [here](https://github.com/hellowangqian/domain-adaptation-capls).
 
-# Reference
+## Reference
 @article{wang2020cross,
   title={Cross-Domain Structure Preserving Projection for Heterogeneous Domain Adaptation},
   author={Wang, Qian and Breckon, Toby P},
@@ -9,5 +9,5 @@ Data used in this work are available [here](https://github.com/hellowangqian/dom
   year={2020}
 }
 
-# Contact
+## Contact
 qian.wang173@hotmail.com
