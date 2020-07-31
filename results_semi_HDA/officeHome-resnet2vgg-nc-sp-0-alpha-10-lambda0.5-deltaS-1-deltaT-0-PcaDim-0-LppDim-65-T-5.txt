@@ -1,0 +1,90 @@
+Randseed=1
+Source domain: Art, Target domain: Art
+d=65
+Iteration=1/5, Acc:0.489,Mean acc per class: 0.458
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m', 48)" style="font-weight:bold">CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m',48,0)">line 48</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m', 10)" style="font-weight:bold">HDA_CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m',10,0)">line 10</a>)
+    P = CDLPP(trainS_features,trainT_features,trainS_labels,trainT_labels,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_resnet2vgg_officeHome', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m', 113)" style="font-weight:bold">HDA_resnet2vgg_officeHome</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m',113,0)">line 113</a>)
+                 [acc_per_image{source_domain_index}{target_domain_index}{randseed},acc_per_class{source_domain_index}{target_domain_index}{randseed}]
+                 =
+                 HDA_CDLPP(trainS_features,trainS_labels,trainT_features,trainT_labels,test_features,test_labels,options);} 
+Randseed=1
+Source domain: Art, Target domain: Art
+d=65
+Iteration=1/5, Acc:0.489,Mean acc per class: 0.458
+Iteration=2/5, Acc:0.529,Mean acc per class: 0.496
+Iteration=3/5, Acc:0.540,Mean acc per class: 0.503
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m', 49)" style="font-weight:bold">CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m',49,0)">line 49</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m', 10)" style="font-weight:bold">HDA_CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m',10,0)">line 10</a>)
+    P = CDLPP(trainS_features,trainT_features,trainS_labels,trainT_labels,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_resnet2vgg_officeHome', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m', 113)" style="font-weight:bold">HDA_resnet2vgg_officeHome</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m',113,0)">line 113</a>)
+    end
+} 
+HDA_resnet2vgg_officeHome
+
+outfilename =
+
+    './results_semi_HDA/officeHome-resnet2vgg-nc-sp-0-alpha-10-lambda0.5-deltaS-1-deltaT-0-PcaDim-0-LppDim-65-T-5'
+
+Randseed=1
+Source domain: Art, Target domain: Art
+d=65
+Iteration=1/5, Acc:0.489,Mean acc per class: 0.458
+Iteration=2/5, Acc:0.529,Mean acc per class: 0.496
+{Operation terminated by user during
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.decomposition.DenseTriangular/solve', 'D:\Program Files\MATLAB\R2019a\toolbox\matlab\matfun\+matlab\+internal\+decomposition\DenseTriangular.m', 54)" style="font-weight:bold">matlab.internal.decomposition.DenseTriangular/solve</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019a\toolbox\matlab\matfun\+matlab\+internal\+decomposition\DenseTriangular.m',54,0)">line 54</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>@(v)solve(dR,applyA(solve(dR,v,false)),true)', 'D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m', 1165)" style="font-weight:bold">eigs>@(v)solve(dR,applyA(solve(dR,v,false)),true)</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m',1165,0)">line 1165</a>)
+    applyOP = @(v) solve(dR, applyA( solve(dR, v, false) ), true);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>KSherm', 'D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m', 1364)" style="font-weight:bold">eigs>KSherm</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m',1364,0)">line 1364</a>)
+        r = applyOP(Mv);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>KrylovSchur', 'D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m', 1281)" style="font-weight:bold">eigs>KrylovSchur</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m',1281,0)">line 1281</a>)
+    [V, d, isNotConverged, stopAlgorithm] = KSherm(applyOP, applyM, n, k, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', 'D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m', 126)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019a\toolbox\matlab\sparfun\eigs.m',126,0)">line 126</a>)
+[V, d, isNotConverged, spdBout, VV] = KrylovSchur(applyOP, applyM, innerOpts, n,
+k,...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m', 51)" style="font-weight:bold">CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\CDLPP.m',51,0)">line 51</a>)
+[P,Diag] = eigs(double(B),double(A),options.ReducedDim,'la',options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_CDLPP', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m', 10)" style="font-weight:bold">HDA_CDLPP</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\utils\HDA_CDLPP.m',10,0)">line 10</a>)
+    P = CDLPP(trainS_features,trainT_features,trainS_labels,trainT_labels,options);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_resnet2vgg_officeHome', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m', 110)" style="font-weight:bold">HDA_resnet2vgg_officeHome</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_resnet2vgg_officeHome.m',110,0)">line 110</a>)
+                 [acc_per_image{source_domain_index}{target_domain_index}{randseed},acc_per_class{source_domain_index}{target_domain_index}{randseed}]
+                 =
+                 HDA_CDLPP(trainS_features,trainS_labels,trainT_features,trainT_labels,test_features,test_labels,options);} 
+HDA_decaf2surf_office10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+'../ZSL_CrossDomain/Office10/decaf/caltech_decaf.mat' is not found in the current
+folder or on the MATLAB path, but exists in:
+    D:\Dropbox\Codes\Heterogenous-Domain-Adaptation
+    D:\Dropbox\Codes\ZSL_CrossDomain
+    D:\Dropbox\Codes\StructuredPrediction-AAAI2020
+    D:\Dropbox\Codes\ZSDA_VAE
+    D:\Dropbox\Codes\NILM
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_decaf2surf_office10', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_decaf2surf_office10.m', 26)" style="font-weight:bold">HDA_decaf2surf_office10</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_decaf2surf_office10.m',26,0)">line 26</a>)
+        load([data_dir 'decaf/' domains{source_domain_index} '_decaf.mat']);
+} 
+HDA_surf2decaf_office10
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file '../ZSL_CrossDomain/Office10/surf/caltech_SURF_L10'. No such file
+or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HDA_surf2decaf_office10', 'D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_surf2decaf_office10.m', 25)" style="font-weight:bold">HDA_surf2decaf_office10</a> (<a href="matlab: opentoline('D:\Dropbox\Codes\Heterogenous-Domain-Adaptation\For-release\HDA_surf2decaf_office10.m',25,0)">line 25</a>)
+    load([data_dir 'surf/' domains{source_domain_index} '_SURF_L10']);
+} 
