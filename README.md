@@ -6,7 +6,6 @@ _"Heterogeneous Domain Adaptation (HDA) addresses the transfer learning problems
 
 [[Wang, Breckon, _Pattern Recognition_, Vol 123, March 2022](https://breckon.org/toby/publications/papers/wang22crossdomain.pdf)]
 
-
 ## Dataset
 
 You can download extracted features (Office-Caltech, Office-Home) used in our experiments from [Durham Collections](https://collections.durham.ac.uk):
@@ -15,6 +14,14 @@ You can download extracted features (Office-Caltech, Office-Home) used in our ex
 [ [DOI](http://doi.org/10.15128/r2jw827b67n) ]
 
 (or alternatively from  [Dropbox](https://www.dropbox.com/sh/293h2sij1oirn3y/AAD_J8ZReGHglzw84RSs6sb8a?dl=0) or [BaiduPan](https://pan.baidu.com/s/1tLfPuOj8745bme4omzAcNg) - code: 57ar)
+
+A download script is provided as follows:
+
+```
+
+$ sh ./download-dataset.sh 
+
+``
 
 ## Reference
 
