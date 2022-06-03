@@ -4,7 +4,7 @@
 % Features are extracted using resnet101 pretrained on ImageNet without
 % fine-tuning
 clear all
-data_dir = 'E:/DomainAdaptation/OfficeHomeDataset_10072016/';
+data_dir = './data/officehome';
 domains = {'Art','Clipart','Product','RealWorld'};
 num_training_per_class_source = 20;
 num_training_per_class_target = 3;
