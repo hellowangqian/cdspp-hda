@@ -5,7 +5,7 @@
 % fine-tuning
 clear all
 addpath('./utils/');
-data_dir = '../data/Office10/';
+data_dir = './data/Office10/';
 domains = {'caltech','amazon','dslr','webcam'};
 num_training_per_class_source = 20;
 num_training_per_class_target = 3;
