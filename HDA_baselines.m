@@ -4,7 +4,7 @@
 % fine-tuning
 clear all
 addpath('./utils/');
-data_dir = '../ZSL_CrossDomain/Office10/';
+data_dir = './data/Office10/';
 domains = {'caltech','amazon','dslr','webcam'};
 %domains = {'CALTECH','AMAZON','WEBCAM'};
 num_training_per_class_source = 20;
